@@ -1,0 +1,22 @@
+<div class="container-next-card">
+  <div class="next-card_photo">
+      <img
+      src="{{ photoCover }}"
+      alt=""
+      height="200px"
+      srcset=""
+      >
+  </div>
+  <div class="next-card_title">
+    <h1><a [routerLink]="['content', Id]">{{ cardTitle }}</a></h1>
+  </div>
+
+  <div class="next-card_description">
+      <p>
+        {{ cardDescrition }}
+      </p>
+      <hr>
+      <hr>
+  </div>
+</div>
+

@@ -1,0 +1,39 @@
+.container-next-card{
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 100px;
+  height: 300px;
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:end;
+  margin-top: 200px;
+}
+
+.next-card_title > h1 {
+  margin-top: 15px;
+  font-size: 20px;
+  margin-left: 65em;
+  width: 300px;
+  text-transform: uppercase;
+  text-align-last: center;
+
+}
+
+.next-card_description > p {
+  margin-top: 10px;
+  color:gray;
+  margin-left: 81em;
+  width: 700px;
+  margin-bottom: 20px;
+  text-align-last: center;
+  text-align: justify;
+}
+
+.next-card_photo > img {
+  height: 320px;
+  width: 900px;
+  border-radius: 10px;
+  margin-left: 80em;
+
+}
